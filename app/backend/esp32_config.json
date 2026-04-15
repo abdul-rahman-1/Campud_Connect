@@ -1,0 +1,9 @@
+{
+  "devices": [
+    {
+      "unit_id": "TANK_B01_01",
+      "name": "Building A - Roof Tank",
+      "ip_address": "10.11.3.71"
+    }
+  ]
+}
