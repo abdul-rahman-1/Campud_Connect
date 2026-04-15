@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="dashboardwater/client/public/fav.png" width="100" alt="HydroPulse TankWatch Logo" />
+  <img src="client/public/fav.png" width="100" alt="HydroPulse TankWatch Logo" />
   <h1>🚀 HydroPulse // TankWatch v2.0</h1>
   <p><strong>Mission-Critical IoT Water Telemetry System</strong></p>
   
