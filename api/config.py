@@ -10,12 +10,12 @@ load_dotenv()
 class Config:
     """Base configuration"""
     # MongoDB
-    MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://AdminClint0001:uTYZ4fPph7whTpXC@cluster0.eifjnhd.mongodb.net/')
-    DB_NAME = os.getenv('DB_NAME', 'water_monitoring')
-    TANKS_COLLECTION = os.getenv('TANKS_COLLECTION', 'tanks')
-    TEMP_COLLECTION = os.getenv('TEMP_COLLECTION', 'temp')
-    ALERTS_COLLECTION = os.getenv('ALERTS_COLLECTION', 'alerts')
-    
+    MONGO_URI = os.getenv('MONGO_URI')
+    DB_NAME = os.getenv('DB_NAME')
+    TANKS_COLLECTION = os.getenv('TANKS_COLLECTION')
+    TEMP_COLLECTION = os.getenv('TEMP_COLLECTION')
+    ALERTS_COLLECTION = os.getenv('ALERTS_COLLECTION')
+
     # Flask
     DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
     API_PORT = int(os.getenv('API_PORT', 8338))
