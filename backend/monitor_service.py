@@ -43,7 +43,7 @@ TANKS_COLLECTION = "tanks"
 ALERTS_COLLECTION = "alerts"
 
 # Monitoring Configuration
-FETCH_INTERVAL = .02  # seconds (for testing - change to 30*60 for production 30 min)
+FETCH_INTERVAL = 3  # seconds (for testing - change to 30*60 for production 30 min)
 ALERT_THRESHOLD_LOW = 20  # Percentage
 REQUEST_TIMEOUT = 10  # seconds
 CONFIG_FILE = "esp32_config.json"
